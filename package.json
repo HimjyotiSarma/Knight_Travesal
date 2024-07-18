@@ -1,0 +1,13 @@
+{
+  "name": "knights_travail",
+  "version": "1.0.0",
+  "description": "Knight Trail Using Graph",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Himjyoti",
+  "license": "ISC"
+}
