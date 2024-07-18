@@ -15,6 +15,7 @@ function knightPossibleTraversal(currentXIndex, currentYIndex, visitedIndexes) {
     [-1, -2],
     [1, -2],
   ]
+
   for (let current of possible_Traversal) {
     let dx = currentXIndex + current[0]
     let dy = currentYIndex + current[1]
@@ -76,5 +77,7 @@ function KnightsTravail(
       }
     }
   }
+  console.log('No path found.')
+  return null
 }
 export default KnightsTravail
